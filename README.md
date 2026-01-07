@@ -21,6 +21,23 @@ By assigning different weights to media types and modeling acceleration using a 
 - **Potential for Real Data Analysis**: Can be extended to analyze YouTube and other social media datasets.
 
 ## Installation
+
+### Setting Up a Virtual Environment (Recommended)
+It's recommended to use a virtual environment to avoid dependency conflicts:
+
+```bash
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+
+# On Windows:
+# venv\Scripts\activate
+```
+
+### Install Dependencies
 To run the notebook, install the required dependencies:
 
 ```bash
